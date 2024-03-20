@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-vector/cute-funny-cartoon-character-avocado-green-background-vector-cartoon-kawaii-character_508290-944.jpg?w=740'); /* Replace 'cartoons_background.jpg' with the path to your image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+  
+       
+  height: 100%;
+  width: 100%;
+  
+  
+  background-position: center center;
+  }
+  
+  
+  
+  .quiz {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #quiz {
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    padding: 10px;
+    background-color: #82c91e; /* Green background */
+    border: 1px solid #5c991e; /* Darker green border */
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff; /* White text */
+  }
+  
+  label:hover {
+    background-color: #6fa81e; /* Darker green on hover */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #82c91e; /* Green button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6fa81e; /* Darker green on hover */
+  }
+  
